@@ -1,42 +1,17 @@
 body {
-  background: #ffa600;
+  background: black;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial, "Lucida Grande", sans-serif;
   height: 100%;
 }
 
-.wrapper {
-  color: white;
-  width: 800px;
-  margin: 30px auto;
-  text-align: center;
-}
-h1,
-h2 {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 2.6em;
-}
-
-#seconds,
-#tens {
-  font-size: 2em;
-}
-
-button {
-  background-color: #ffa600;
-  border: 1px solid white;
-  color: white;
-  padding: 18px 10px;
-  width: 180px;
-  margin: 10px;
-  font-size: 1.2em;
-  cursor: pointer;
-  border-radius: 5px;
-}
-button:hover {
-  color: #ffa600;
-  background-color: white;
-  transition: all 0.5s ease-in-out;
+#digitalClock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 60px;
+  letter-spacing: 7px;
+  color: rgb(55, 123, 192);
+  font-family: "Franklin Gothic Medium";
 }

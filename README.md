@@ -1,7 +1,5 @@
-# Stop Watch
+# JAVASCRIPT CLOCK
 
-- Coding a JavaScript stopwatch is an easy little project you can build in one day even as a beginner. Your stopwatch needs three buttons for user interaction:
+- Building your own digital clock with JavaScript is a relatively easy small project to practice variables and simple if loops.
 
-- Start
-- Stop
-- Reset
+- You can use some CSS to customize the design and make your JavaScript clock look amazing.
